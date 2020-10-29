@@ -1,4 +1,4 @@
-[@@@ warning "-27-32" ]
+[@@@ warning "-27-32" ] (* SRC: https://github.com/altzmanl/Stream WARNING UNLICENSED *)
 module StreamF = struct
     (*This barely beats the Seq module in Batteries, beats Core.LazyList 
     by a lot and is 10x faster than a standard List *)
