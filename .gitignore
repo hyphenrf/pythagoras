@@ -1,0 +1,8 @@
+#ocaml files
+_*
+*.exe
+.merlin
+
+#haskell files
+*.hi
+*.o
