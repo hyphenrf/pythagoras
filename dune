@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (libraries landmarks iter fusion)
+ (ocamlopt_flags -O3 -noassert -unsafe -unboxed-types -rounds 3 -inline 100
+   -remove-unused-arguments -nodynlink -linscan -unbox-closures -short-paths))
